@@ -92,7 +92,7 @@ font-size: clamp(2rem, 5.5vw, 4.2rem);
 }
 
 /* Mobile - center & side by side */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
  .title-section h1 {
   text-align: center;
   font-size: clamp(2.2rem, 5vw, 2.6rem); /* Slightly bigger */
@@ -181,7 +181,7 @@ font-size: clamp(2rem, 5.5vw, 4.2rem);
 
 
 /* Mobile view (extra tweaks for < 576px) */
-@media (max-width: 767px) {
+@media (max-width: 768px) {
   .description h1 {
     font-size: clamp(0.875rem, 5vw, 3rem);
     line-height: 1.3;
@@ -218,7 +218,7 @@ font-size: clamp(2rem, 5.5vw, 4.2rem);
   display: inline-block;
 }
 
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   .button-scroll-wrapper {
     display: flex;
     flex-wrap: wrap;     
@@ -453,7 +453,7 @@ font-size: clamp(2rem, 5.5vw, 4.2rem);
   .video-container {
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    padding-bottom: 56.25%; 
     height: 0;
     overflow: hidden;
   }
